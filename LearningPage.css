@@ -1,0 +1,104 @@
+body {
+	font-family: sans-serif;
+	letter-spacing: 0.15em;
+	background-color: black;
+	line-height: 1.5;
+}
+
+p {
+	color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #4682B4;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+img {
+	height:500px;
+	width:600px;
+	padding:100px;
+}	
+
+#banner-logo {
+	padding:100px;
+	margin-right:-5vw;
+}
+
+#banner-text p {
+	font-size:20.5px;
+	
+}
+
+#introduction-text p {
+	font-size:25px;
+	margin-top:100px
+}
+
+/*Dropdown content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:#4682B4;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/*Dropdown Hover color is Snow*/
+.dropdown-content a:hover {background-color: #FFFAFA;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*Inline CSS Class active with active color Steel Blue*/
+.active {
+  background-color: #4682B4;
+}
+/*Arrows for dropdown vizualisation*/
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+  
+  
+
